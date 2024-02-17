@@ -1,0 +1,1375 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vALU
+!s110 1704474590
+!i10b 1
+!s100 QK;NSdW9o;_ek9[BBc5<o3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IW61cOB3M;EO;]elAX<;za2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/erena/Documents/Logic Design Project
+w1704451614
+8C:/Users/erena/Documents/Logic Design Project/ALU.v
+FC:/Users/erena/Documents/Logic Design Project/ALU.v
+!i122 248
+Z3 L0 1 39
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1704474590.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/ALU.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vALU_tb
+!s110 1704401156
+!i10b 1
+!s100 R@F4;HXG2@0mgGeRd2QEf2
+R0
+I:1CC_mdhD=:`i<UI_>L`93
+R1
+R2
+w1704401155
+8C:/Users/erena/Documents/Logic Design Project/ALU_Test.v
+FC:/Users/erena/Documents/Logic Design Project/ALU_Test.v
+!i122 214
+L0 2 71
+R4
+r1
+!s85 0
+31
+!s108 1704401156.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/ALU_Test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/ALU_Test.v|
+!i113 1
+R5
+R6
+n@a@l@u_tb
+vBitAdder
+!s110 1703963297
+!i10b 1
+!s100 mQS_GL7iU_kfbB0meQBKD0
+R0
+IlXzPCMzo3hzm4zSgH6HUW3
+R1
+R2
+w1703963260
+8C:/Users/erena/Documents/Logic Design Project/deneme.v
+FC:/Users/erena/Documents/Logic Design Project/deneme.v
+!i122 3
+Z7 L0 2 24
+R4
+r1
+!s85 0
+31
+!s108 1703963297.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/deneme.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/deneme.v|
+!i113 1
+R5
+R6
+n@bit@adder
+vComparator
+!s110 1704438461
+!i10b 1
+!s100 Hl??NV5Xdfa>9VgB3zE@o2
+R0
+IW1=[mWVcSK0ec]UL^Hf4:0
+R1
+R2
+w1704397209
+8C:/Users/erena/Documents/Logic Design Project/Comparator.v
+FC:/Users/erena/Documents/Logic Design Project/Comparator.v
+!i122 233
+Z8 L0 2 57
+R4
+r1
+!s85 0
+31
+!s108 1704438461.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/Comparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/Comparator.v|
+!i113 1
+R5
+R6
+n@comparator
+vComparator_tb
+!s110 1704397243
+!i10b 1
+!s100 fQPcaR]<mmEB^627FbbkM1
+R0
+I=m7Nb]fa:kcRQffGgP1;;0
+R1
+R2
+w1704397238
+8C:/Users/erena/Documents/Logic Design Project/ComparatorTest.v
+FC:/Users/erena/Documents/Logic Design Project/ComparatorTest.v
+!i122 196
+L0 1 53
+R4
+r1
+!s85 0
+31
+!s108 1704397243.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/ComparatorTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/ComparatorTest.v|
+!i113 1
+R5
+R6
+n@comparator_tb
+vControleUnit
+!s110 1704477882
+!i10b 1
+!s100 cUf=Qm0U_D0K3m3BAG3hK3
+R0
+IH;:I@C7?7i6gAJT0l`KLI0
+R1
+R2
+w1704477880
+Z9 8C:/Users/erena/Documents/Logic Design Project/ControlUnit.v
+Z10 FC:/Users/erena/Documents/Logic Design Project/ControlUnit.v
+!i122 251
+Z11 L0 1 121
+R4
+r1
+!s85 0
+31
+!s108 1704477882.000000
+Z12 !s107 C:/Users/erena/Documents/Logic Design Project/ControlUnit.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/ControlUnit.v|
+!i113 1
+R5
+R6
+n@controle@unit
+vControleUnit_tb
+!s110 1704478813
+!i10b 1
+!s100 :5B:>LJzoR3nMS>CcQh9=1
+R0
+I9RXFX@0Q58B72K9mFYAnY2
+R1
+R2
+w1704478791
+Z14 8C:/Users/erena/Documents/Logic Design Project/ControlUnitTest.v
+Z15 FC:/Users/erena/Documents/Logic Design Project/ControlUnitTest.v
+!i122 257
+Z16 L0 1 98
+R4
+r1
+!s85 0
+31
+!s108 1704478813.000000
+Z17 !s107 C:/Users/erena/Documents/Logic Design Project/ControlUnitTest.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/ControlUnitTest.v|
+!i113 1
+R5
+R6
+n@controle@unit_tb
+vControlUnit
+!s110 1704478829
+!i10b 1
+!s100 j3LPN=i8_o=^@nOW4WA5e2
+R0
+IzFR1AP=faGTLab1laFQfD3
+R1
+R2
+w1704478812
+R9
+R10
+!i122 259
+R11
+R4
+r1
+!s85 0
+31
+!s108 1704478829.000000
+R12
+R13
+!i113 1
+R5
+R6
+n@control@unit
+vControlUnit_tb
+!s110 1704478827
+!i10b 1
+!s100 :_<Pd]k8jm?YK`4nAh`FQ0
+R0
+I@i<f[I@JYUS<[0i3AW0G51
+R1
+R2
+w1704478824
+R14
+R15
+!i122 258
+R16
+R4
+r1
+!s85 0
+31
+!s108 1704478827.000000
+R17
+R18
+!i113 1
+R5
+R6
+n@control@unit_tb
+vD_Latch
+!s110 1704101442
+!i10b 1
+!s100 IMnmeGddbB>LXhc@Gf<[c2
+R0
+IWmgh;nYGih_akNbbW;D183
+R1
+R2
+w1704100909
+8C:/Users/erena/Documents/Logic Design Project/D_Latch.v
+FC:/Users/erena/Documents/Logic Design Project/D_Latch.v
+!i122 74
+L0 1 14
+R4
+r1
+!s85 0
+31
+!s108 1704101442.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/D_Latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/D_Latch.v|
+!i113 1
+R5
+R6
+n@d_@latch
+vD_Latch_tb
+!s110 1704100497
+!i10b 1
+!s100 CLQlloLjZTz@fF9?bCVJ[2
+R0
+I4:DfA`@RkY2Cl<4UIL2eG0
+R1
+R2
+w1704100494
+8C:/Users/erena/Documents/Logic Design Project/D_LatchTest.v
+FC:/Users/erena/Documents/Logic Design Project/D_LatchTest.v
+!i122 72
+L0 1 58
+R4
+r1
+!s85 0
+31
+!s108 1704100497.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/D_LatchTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/D_LatchTest.v|
+!i113 1
+R5
+R6
+n@d_@latch_tb
+vdata_memory
+Z19 !s110 1704487915
+!i10b 1
+!s100 <SYfEb1PHK5DGVGSJP5PV2
+R0
+I^l]_zGMIinVBJ?zcQgB151
+R1
+R2
+Z20 w1704487914
+Z21 8C:/Users/erena/Documents/Logic Design Project/main.v
+Z22 FC:/Users/erena/Documents/Logic Design Project/main.v
+!i122 272
+L0 158 20
+R4
+r1
+!s85 0
+31
+Z23 !s108 1704487915.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/main.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/main.v|
+!i113 1
+R5
+R6
+vEighteenBitAdder
+!s110 1703967255
+!i10b 1
+!s100 D]T`mCkgR3OS6lKTG2KZ<3
+R0
+I1QV7Z:Q5Sceoe;_Aj_OnR2
+R1
+R2
+w1703967253
+8C:/Users/erena/Documents/Logic Design Project/EighteenBitAdder.v
+FC:/Users/erena/Documents/Logic Design Project/EighteenBitAdder.v
+!i122 10
+L0 3 32
+R4
+r1
+!s85 0
+31
+!s108 1703967255.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/EighteenBitAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/EighteenBitAdder.v|
+!i113 1
+R5
+R6
+n@eighteen@bit@adder
+vEighteenBitAdder_Test
+!s110 1704105128
+!i10b 1
+!s100 94TiQiAZZ7[WeUdn8We1?1
+R0
+ISWXfB1?<T:<BMlhZF=>aN0
+R1
+R2
+w1703967487
+8C:/Users/erena/Documents/Logic Design Project/EighteenBitAdderTest.v
+FC:/Users/erena/Documents/Logic Design Project/EighteenBitAdderTest.v
+!i122 82
+L0 1 56
+R4
+r1
+!s85 0
+31
+!s108 1704105128.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/EighteenBitAdderTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/EighteenBitAdderTest.v|
+!i113 1
+R5
+R6
+n@eighteen@bit@adder_@test
+vEighteenBitComparator
+!s110 1704307186
+!i10b 1
+!s100 dRg1GOMbc0i=<_<o:LfF63
+R0
+I?jA<bR3>nlOJd6fnW6Jf[0
+R1
+R2
+w1704030064
+8C:/Users/erena/Documents/Logic Design Project/EighteenBitComparator.v
+FC:/Users/erena/Documents/Logic Design Project/EighteenBitComparator.v
+!i122 160
+L0 1 34
+R4
+r1
+!s85 0
+31
+!s108 1704307185.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/EighteenBitComparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/EighteenBitComparator.v|
+!i113 1
+R5
+R6
+n@eighteen@bit@comparator
+vEighteenBitComparator_Test
+!s110 1704029959
+!i10b 1
+!s100 3naI9BCo:<mX=a9BlQD_L2
+R0
+I@z4UFd;2eimjK>F8208E>1
+R1
+R2
+w1704029954
+8C:/Users/erena/Documents/Logic Design Project/EighteenBitComparatorTest.v
+FC:/Users/erena/Documents/Logic Design Project/EighteenBitComparatorTest.v
+!i122 63
+L0 2 48
+R4
+r1
+!s85 0
+31
+!s108 1704029959.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/EighteenBitComparatorTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/EighteenBitComparatorTest.v|
+!i113 1
+R5
+R6
+n@eighteen@bit@comparator_@test
+vEighteenBitRegister
+!s110 1704198013
+!i10b 1
+!s100 zloMMNGcS=G;n1D@01bcQ0
+R0
+IB5]`YjfjCRdYCF4;Ab6l[0
+R1
+R2
+w1704198008
+8C:\Users\erena\Documents\Logic Design Project\18BitRegister.v
+FC:\Users\erena\Documents\Logic Design Project\18BitRegister.v
+!i122 137
+Z25 L0 1 36
+R4
+r1
+!s85 0
+31
+!s108 1704198013.000000
+!s107 C:\Users\erena\Documents\Logic Design Project\18BitRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\18BitRegister.v|
+!i113 1
+R5
+R6
+n@eighteen@bit@register
+vEighteenBitRegister_tb
+!s110 1704197874
+!i10b 1
+!s100 W`Aa5Tn4i0Dk>h6?]gB]g2
+R0
+IT;lY;_824nzbZI``LMQe70
+R1
+R2
+w1704197868
+8C:\Users\erena\Documents\Logic Design Project\18BitRegisterTest.v
+FC:\Users\erena\Documents\Logic Design Project\18BitRegisterTest.v
+!i122 136
+R8
+R4
+r1
+!s85 0
+31
+!s108 1704197874.000000
+!s107 C:\Users\erena\Documents\Logic Design Project\18BitRegisterTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\18BitRegisterTest.v|
+!i113 1
+R5
+R6
+n@eighteen@bit@register_tb
+vElevenBitAdder
+!s110 1704306902
+!i10b 1
+!s100 =lm7UENYCX2J8Vne;znL52
+R0
+IWmY0985M:2W2A`[BAEl^30
+R1
+R2
+w1703965604
+8C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder.v
+FC:/Users/erena/Documents/Logic Design Project/ElevenBitAdder.v
+!i122 158
+R7
+R4
+r1
+!s85 0
+31
+!s108 1704306902.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder.v|
+!i113 1
+R5
+R6
+n@eleven@bit@adder
+vElevenBitAdder_Test
+!s110 1703965279
+!i10b 1
+!s100 @nYDHoBNcJJiTO0KQ<lfK3
+R0
+IhAYGNDK?XIaVb:TO2nURO0
+R1
+R2
+w1703965272
+8C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder_Test.v
+FC:/Users/erena/Documents/Logic Design Project/ElevenBitAdder_Test.v
+!i122 8
+Z26 L0 1 29
+R4
+r1
+!s85 0
+31
+!s108 1703965279.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder_Test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder_Test.v|
+!i113 1
+R5
+R6
+n@eleven@bit@adder_@test
+vElevenBitRegister
+!s110 1704281452
+!i10b 1
+!s100 W8`550oZk:V5TfAaXVVhJ2
+R0
+IRGg[no<mGQ>zRe<>C21EY3
+R1
+R2
+w1704281437
+8C:\Users\erena\Documents\Logic Design Project\11BitRegister.v
+FC:\Users\erena\Documents\Logic Design Project\11BitRegister.v
+!i122 143
+R26
+R4
+r1
+!s85 0
+31
+!s108 1704281452.000000
+!s107 C:\Users\erena\Documents\Logic Design Project\11BitRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\11BitRegister.v|
+!i113 1
+R5
+R6
+n@eleven@bit@register
+vElevenBitRegister_TB
+!s110 1704398608
+!i10b 1
+!s100 D`8;kHjFTmUjib02DV[JY0
+R0
+I<4T:5@>PLQClQ;6O]IaGG1
+R1
+R2
+w1704120410
+8C:/Users/erena/Documents/Logic Design Project/11BitRegisterTest.v
+FC:/Users/erena/Documents/Logic Design Project/11BitRegisterTest.v
+!i122 200
+L0 1 61
+R4
+r1
+!s85 0
+31
+!s108 1704398608.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/11BitRegisterTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/11BitRegisterTest.v|
+!i113 1
+R5
+R6
+n@eleven@bit@register_@t@b
+vFiniteStateMachine
+!s110 1704401711
+!i10b 1
+!s100 F]5U0;`7>_gKZnCfhJ_D=1
+R0
+Ii^be?J1CiK@34USM@5ioN0
+R1
+R2
+w1704401710
+Z27 8C:/Users/erena/Documents/Logic Design Project/FiniteStateMachine.v
+Z28 FC:/Users/erena/Documents/Logic Design Project/FiniteStateMachine.v
+!i122 215
+L0 1 21
+R4
+r1
+!s85 0
+31
+!s108 1704401711.000000
+Z29 !s107 C:/Users/erena/Documents/Logic Design Project/FiniteStateMachine.v|
+Z30 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/FiniteStateMachine.v|
+!i113 1
+R5
+R6
+n@finite@state@machine
+vFlipFlop
+!s110 1704102652
+!i10b 1
+!s100 :E7gg7nk2=1?]Q7eHaH<i0
+R0
+IU:mgT8BHz`3PaI6Vm[cNF0
+R1
+R2
+w1704102651
+8C:/Users/erena/Documents/Logic Design Project/FlipFlop.v
+FC:/Users/erena/Documents/Logic Design Project/FlipFlop.v
+!i122 80
+L0 1 15
+R4
+r1
+!s85 0
+31
+!s108 1704102652.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/FlipFlop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/FlipFlop.v|
+!i113 1
+R5
+R6
+n@flip@flop
+vFlipFlop_tb
+!s110 1704102660
+!i10b 1
+!s100 oNkW5D@oTeBW_2U]Ad0H@1
+R0
+IGY_C:XM58`dnYU40[z^ZT1
+R1
+R2
+w1704102217
+8C:/Users/erena/Documents/Logic Design Project/FlipFlopTest.v
+FC:/Users/erena/Documents/Logic Design Project/FlipFlopTest.v
+!i122 81
+L0 1 27
+R4
+r1
+!s85 0
+31
+!s108 1704102660.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/FlipFlopTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/FlipFlopTest.v|
+!i113 1
+R5
+R6
+n@flip@flop_tb
+vFourBitComparator
+!s110 1704028516
+!i10b 1
+!s100 _A_JPe[e<hb1;aX6S2mN:0
+R0
+IJdoUXVn78NaoX?@8lSh4;3
+R1
+R2
+w1704028508
+8C:/Users/erena/Documents/Logic Design Project/FourBitComparator.v
+FC:/Users/erena/Documents/Logic Design Project/FourBitComparator.v
+!i122 59
+L0 1 32
+R4
+r1
+!s85 0
+31
+!s108 1704028515.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/FourBitComparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/FourBitComparator.v|
+!i113 1
+R5
+R6
+n@four@bit@comparator
+vFourBitComparator_Test
+!s110 1704028540
+!i10b 1
+!s100 @`89H[CXaHUA<:6VCK?m42
+R0
+I06SE<zJj_J8:^Y1KS4mQh0
+R1
+R2
+w1704028537
+8C:/Users/erena/Documents/Logic Design Project/FourBitComparatorTest.v
+FC:/Users/erena/Documents/Logic Design Project/FourBitComparatorTest.v
+!i122 60
+L0 1 94
+R4
+r1
+!s85 0
+31
+!s108 1704028540.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/FourBitComparatorTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/FourBitComparatorTest.v|
+!i113 1
+R5
+R6
+n@four@bit@comparator_@test
+vFourBitRegister
+!s110 1704280702
+!i10b 1
+!s100 cXPQFbGg_PY?bf8]Z8GE42
+R0
+I2nLXG?@chl]5bbCm?GEZS1
+R1
+R2
+w1704280684
+8C:\Users\erena\Documents\Logic Design Project\4BitRegister.v
+FC:\Users\erena\Documents\Logic Design Project\4BitRegister.v
+!i122 140
+L0 1 22
+R4
+r1
+!s85 0
+31
+!s108 1704280702.000000
+!s107 C:\Users\erena\Documents\Logic Design Project\4BitRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\4BitRegister.v|
+!i113 1
+R5
+R6
+n@four@bit@register
+vFourBitRegister_Test
+!s110 1704281268
+!i10b 1
+!s100 0mVZ>?NYc3:^9<W3J_AIa1
+R0
+IjWEb1=Q^AFX[Q0:fdJLFT3
+R1
+R2
+w1704281263
+Z31 8C:\Users\erena\Documents\Logic Design Project\4BitRegisterTest.v
+Z32 FC:\Users\erena\Documents\Logic Design Project\4BitRegisterTest.v
+!i122 142
+Z33 L0 1 45
+R4
+r1
+!s85 0
+31
+!s108 1704281268.000000
+Z34 !s107 C:\Users\erena\Documents\Logic Design Project\4BitRegisterTest.v|
+Z35 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\4BitRegisterTest.v|
+!i113 1
+R5
+R6
+n@four@bit@register_@test
+vFourBitRegisterTestbench
+!s110 1704280811
+!i10b 1
+!s100 4iW2]]^5gi:R?Qk4QgU<42
+R0
+I6F8n3n;kMQNQd`mg3c3Dm3
+R1
+R2
+w1704280805
+R31
+R32
+!i122 141
+L0 1 51
+R4
+r1
+!s85 0
+31
+!s108 1704280811.000000
+R34
+R35
+!i113 1
+R5
+R6
+n@four@bit@register@testbench
+vFSM
+!s110 1704474594
+!i10b 1
+!s100 ?]lK=U=z4]Df5cFkdR;4;1
+R0
+I`n6i>RV;>;zh;;U8>HJRO3
+R1
+R2
+w1704454052
+R27
+R28
+!i122 249
+R26
+R4
+r1
+!s85 0
+31
+!s108 1704474594.000000
+R29
+R30
+!i113 1
+R5
+R6
+n@f@s@m
+vFSM_tb
+!s110 1704403207
+!i10b 1
+!s100 >BjW15<CdF:m;fN5EDfkm2
+R0
+IBdkanz8F:a^0f]OB2`64c0
+R1
+R2
+w1704402858
+Z36 8C:/Users/erena/Documents/Logic Design Project/FSM_Test.v
+Z37 FC:/Users/erena/Documents/Logic Design Project/FSM_Test.v
+!i122 222
+L0 1 46
+R4
+r1
+!s85 0
+31
+!s108 1704403207.000000
+Z38 !s107 C:/Users/erena/Documents/Logic Design Project/FSM_Test.v|
+Z39 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/FSM_Test.v|
+!i113 1
+R5
+R6
+n@f@s@m_tb
+vFSM_test
+!s110 1704401819
+!i10b 1
+!s100 _aHVjn4>TUJBlHMIP1eTd0
+R0
+I8eW0JNn@iZkL91]g@FT1F1
+R1
+R2
+w1704401818
+R36
+R37
+!i122 216
+L0 1 40
+R4
+r1
+!s85 0
+31
+!s108 1704401819.000000
+R38
+R39
+!i113 1
+R5
+R6
+n@f@s@m_test
+vFullAdder
+!s110 1703961224
+!i10b 1
+!s100 Q0YZfW`La9>C;T>JS;kKk2
+R0
+INeFkg`1T<K1;Xca_TGbOb3
+R1
+R2
+w1703961219
+8C:/Users/erena/Documents/Logic Design Project/FullAdder.v
+FC:/Users/erena/Documents/Logic Design Project/FullAdder.v
+!i122 0
+L0 1 4
+R4
+r1
+!s85 0
+31
+!s108 1703961224.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/FullAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/FullAdder.v|
+!i113 1
+R5
+R6
+n@full@adder
+vFullAdder_TB
+!s110 1703961291
+!i10b 1
+!s100 Z14DPDbVnm8@7W<6IgP=]1
+R0
+Ic[[bDd9dXe?>g6JL:5cV92
+R1
+R2
+w1703961289
+8C:/Users/erena/Documents/Logic Design Project/FullAdderTest.v
+FC:/Users/erena/Documents/Logic Design Project/FullAdderTest.v
+!i122 1
+L0 2 61
+R4
+r1
+!s85 0
+31
+!s108 1703961291.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/FullAdderTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/FullAdderTest.v|
+!i113 1
+R5
+R6
+n@full@adder_@t@b
+vinstruction_memory
+R19
+!i10b 1
+!s100 4E?Y2`<WdIzjJ@eQJ@<F^0
+R0
+Im>T=Uff35dimlPWHiRjh<2
+R1
+R2
+R20
+R21
+R22
+!i122 272
+L0 141 16
+R4
+r1
+!s85 0
+31
+R23
+Z40 !s107 C:/Users/erena/Documents/Logic Design Project/main.v|
+R24
+!i113 1
+R5
+R6
+vJump
+!s110 1704311102
+!i10b 1
+!s100 H@63zGbcahAloYDzW:]Gm2
+R0
+IHTF49`CGf[o`4UD`YB;z:0
+R1
+R2
+w1704311096
+8C:/Users/erena/Documents/Logic Design Project/Jump.v
+FC:/Users/erena/Documents/Logic Design Project/Jump.v
+!i122 173
+L0 1 92
+R4
+r1
+!s85 0
+31
+!s108 1704311102.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/Jump.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/Jump.v|
+!i113 1
+R5
+R6
+n@jump
+vJump_tb
+!s110 1704310052
+!i10b 1
+!s100 `T?giDg27YTRTJO8lH=5T1
+R0
+I1?mPajYKW`Lh:OS1_n:og2
+R1
+R2
+w1704309992
+Z41 8C:/Users/erena/Documents/Logic Design Project/JumpTest.v
+Z42 FC:/Users/erena/Documents/Logic Design Project/JumpTest.v
+!i122 167
+L0 1 99
+R4
+r1
+!s85 0
+31
+!s108 1704310052.000000
+Z43 !s107 C:/Users/erena/Documents/Logic Design Project/JumpTest.v|
+Z44 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/JumpTest.v|
+!i113 1
+R5
+R6
+n@jump_tb
+vJump_Test
+!s110 1704317329
+!i10b 1
+!s100 ^zAo009OW:4ghPncgg4?[1
+R0
+I3HC4]ABPQ6@<K8P6Bf=c92
+R1
+R2
+w1704311523
+R41
+R42
+!i122 178
+L0 1 115
+R4
+r1
+!s85 0
+31
+!s108 1704317329.000000
+R43
+R44
+!i113 1
+R5
+R6
+n@jump_@test
+vmain
+R19
+!i10b 1
+!s100 4=D8XSeZX9:NVPN8X]Gh^0
+R0
+IQ8G<3QXFKPA>FhoG?K4Oi2
+R1
+R2
+R20
+R21
+R22
+!i122 272
+L0 1 139
+R4
+r1
+!s85 0
+31
+R23
+R40
+R24
+!i113 1
+R5
+R6
+vOneBitRegister
+!s110 1704315632
+!i10b 1
+!s100 8?KT]C10f_PE3c?]^ZGHa1
+R0
+I;OG=TUle_L>L7^0VgKbJC0
+R1
+R2
+w1704280125
+8C:/Users/erena/Documents/Logic Design Project/1BitRegister.v
+FC:/Users/erena/Documents/Logic Design Project/1BitRegister.v
+!i122 175
+L0 1 23
+R4
+r1
+!s85 0
+31
+!s108 1704315632.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/1BitRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/1BitRegister.v|
+!i113 1
+R5
+R6
+n@one@bit@register
+vOneBitRegister_tb
+!s110 1704196399
+!i10b 1
+!s100 jf9M14I8ld`XcU53m1::W1
+R0
+IRMoY8Ee31Q6L]R_bP>0VX1
+R1
+R2
+w1704196366
+Z45 8C:\Users\erena\Documents\Logic Design Project\1BitRegister_Test.v
+Z46 FC:\Users\erena\Documents\Logic Design Project\1BitRegister_Test.v
+!i122 132
+R33
+R4
+r1
+!s85 0
+31
+!s108 1704196399.000000
+Z47 !s107 C:\Users\erena\Documents\Logic Design Project\1BitRegister_Test.v|
+Z48 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\1BitRegister_Test.v|
+!i113 1
+R5
+R6
+n@one@bit@register_tb
+vOneBitRegister_Test
+!s110 1704280136
+!i10b 1
+!s100 l5dNcHVea6mhSXQD3P=^S0
+R0
+IzfFd1KIBS65cK^_IVmS@F1
+R1
+R2
+w1704280107
+R45
+R46
+!i122 139
+L0 1 75
+R4
+r1
+!s85 0
+31
+!s108 1704280136.000000
+R47
+R48
+!i113 1
+R5
+R6
+n@one@bit@register_@test
+vProgramCounter
+!s110 1704486035
+!i10b 1
+!s100 J83>K^LFV`]EdoY0N3WXN3
+R0
+IUl<64e2]R8Q@L2hJZzkQY2
+R1
+R2
+w1704285855
+8C:/Users/erena/Documents/Logic Design Project/ProgramCounter.v
+FC:/Users/erena/Documents/Logic Design Project/ProgramCounter.v
+!i122 260
+L0 1 20
+R4
+r1
+!s85 0
+31
+!s108 1704486035.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/ProgramCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/ProgramCounter.v|
+!i113 1
+R5
+R6
+n@program@counter
+vProgramCounter_Test
+!s110 1704285915
+!i10b 1
+!s100 eNg@;iMMIV3]=UfIT;SZj1
+R0
+IjV9GDJbRSJ^c?zoejR?8Y2
+R1
+R2
+w1704285911
+Z49 8C:\Users\erena\Documents\Logic Design Project\ProgramCounterTest.v
+Z50 FC:\Users\erena\Documents\Logic Design Project\ProgramCounterTest.v
+!i122 151
+L0 1 64
+R4
+r1
+!s85 0
+31
+!s108 1704285915.000000
+Z51 !s107 C:\Users\erena\Documents\Logic Design Project\ProgramCounterTest.v|
+Z52 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\ProgramCounterTest.v|
+!i113 1
+R5
+R6
+n@program@counter_@test
+vProgramCounter_test
+!s110 1704286391
+!i10b 1
+!s100 7CW^nWP?OEbGmF2D9R[7C2
+R0
+IaAUJf=3D22[Go1LjKAh^z0
+R1
+R2
+w1704286385
+R49
+R50
+!i122 155
+Z53 L0 1 48
+R4
+r1
+!s85 0
+31
+!s108 1704286391.000000
+R51
+R52
+!i113 1
+R5
+R6
+n@program@counter_test
+vregister
+!s110 1704105447
+!i10b 1
+!s100 Jj^7128Y6Gj7@8RS:Wg;K1
+R0
+IH89mFg:IfGP9<AiZgJK7b0
+R1
+R2
+w1704105446
+8C:/Users/erena/Documents/Logic Design Project/OneBitRegister.v
+FC:/Users/erena/Documents/Logic Design Project/OneBitRegister.v
+!i122 85
+L0 1 18
+R4
+r1
+!s85 0
+31
+!s108 1704105447.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/OneBitRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/OneBitRegister.v|
+!i113 1
+R5
+R6
+vRegister
+!s110 1704112013
+!i10b 1
+!s100 _AIoKGDh3Mh>DQliRHbUI1
+R0
+IW4@YWH;ndSG226LAjUoh60
+R1
+R2
+w1704112002
+8C:\Users\erena\Documents\Logic Design Project\1BitRegister.v
+FC:\Users\erena\Documents\Logic Design Project\1BitRegister.v
+!i122 99
+L0 1 19
+R4
+r1
+!s85 0
+31
+!s108 1704112013.000000
+!s107 C:\Users\erena\Documents\Logic Design Project\1BitRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\1BitRegister.v|
+!i113 1
+R5
+R6
+n@register
+vRegisterFile
+!s110 1704439217
+!i10b 1
+!s100 ^VWjePPbUX^_L>KHWUfAi2
+R0
+I>mbb:1F[0R5elB9[oZ;KE0
+R1
+R2
+w1704403936
+8C:/Users/erena/Documents/Logic Design Project/RegisterFile.v
+FC:/Users/erena/Documents/Logic Design Project/RegisterFile.v
+!i122 235
+L0 1 30
+R4
+r1
+!s85 0
+31
+!s108 1704439217.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/RegisterFile.v|
+!i113 1
+R5
+R6
+n@register@file
+vRegisterFile_tb
+!s110 1704404392
+!i10b 1
+!s100 iG<[heRWhn2=gEJNzd`IK0
+R0
+I9h`5MWWo`1QNeSQY3WeQ>1
+R1
+R2
+w1704404391
+8C:/Users/erena/Documents/Logic Design Project/RegisterFileTest.v
+FC:/Users/erena/Documents/Logic Design Project/RegisterFileTest.v
+!i122 227
+L0 1 54
+R4
+r1
+!s85 0
+31
+!s108 1704404392.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/RegisterFileTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/RegisterFileTest.v|
+!i113 1
+R5
+R6
+n@register@file_tb
+vsignExtender
+!s110 1704191503
+!i10b 1
+!s100 ?lVK0RC_e1heN47gkGQF`3
+R0
+I9iI4EZ@:>inL;k6^[lefW0
+R1
+R2
+w1704191496
+8C:\Users\erena\Documents\Logic Design Project\SignExtender.v
+FC:\Users\erena\Documents\Logic Design Project\SignExtender.v
+!i122 129
+L0 1 9
+R4
+r1
+!s85 0
+31
+!s108 1704191503.000000
+!s107 C:\Users\erena\Documents\Logic Design Project\SignExtender.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\SignExtender.v|
+!i113 1
+R5
+R6
+nsign@extender
+vsignExtender_testbench
+!s110 1704191616
+!i10b 1
+!s100 n_ieM4C@S6z<V<f[gf=Tl1
+R0
+IHVdZb=Ohob^KU>D4>23G<1
+R1
+R2
+w1704191610
+8C:\Users\erena\Documents\Logic Design Project\signExtenderTest.v
+FC:\Users\erena\Documents\Logic Design Project\signExtenderTest.v
+!i122 130
+R3
+R4
+r1
+!s85 0
+31
+!s108 1704191616.000000
+!s107 C:\Users\erena\Documents\Logic Design Project\signExtenderTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erena\Documents\Logic Design Project\signExtenderTest.v|
+!i113 1
+R5
+R6
+nsign@extender_testbench
+vtest_11BitAdder
+!s110 1703963682
+!i10b 1
+!s100 QPYnm_G^ge8MFKQ1d4V<B0
+R0
+IcCH_<>izYl7JCh_InWZdV3
+R1
+R2
+w1703963681
+8C:/Users/erena/Documents/Logic Design Project/11-BitAdderTest.v
+FC:/Users/erena/Documents/Logic Design Project/11-BitAdderTest.v
+!i122 4
+R53
+R4
+r1
+!s85 0
+31
+!s108 1703963682.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/11-BitAdderTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/11-BitAdderTest.v|
+!i113 1
+R5
+R6
+ntest_11@bit@adder
+vTwoBitComparator
+!s110 1704026538
+!i10b 1
+!s100 _R=aEbWA[?Hk4WOKG=kch1
+R0
+I_`YH4A=d:KMfD:iQPB?RG2
+R1
+R2
+w1704026516
+8C:/Users/erena/Documents/Logic Design Project/TwoBitComparator.v
+FC:/Users/erena/Documents/Logic Design Project/TwoBitComparator.v
+!i122 53
+R25
+R4
+r1
+!s85 0
+31
+!s108 1704026538.000000
+!s107 C:/Users/erena/Documents/Logic Design Project/TwoBitComparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/TwoBitComparator.v|
+!i113 1
+R5
+R6
+n@two@bit@comparator
+vTwoBitComparator_Test
+!s110 1703971587
+!i10b 1
+!s100 7l5[RY`Y43?n<8>biBc>W1
+R0
+I@QKFT@_kJ51]6N<J8Bi^k0
+R1
+R2
+w1703969279
+Z54 8C:/Users/erena/Documents/Logic Design Project/TwoBitComparatorTest.v
+Z55 FC:/Users/erena/Documents/Logic Design Project/TwoBitComparatorTest.v
+!i122 20
+L0 1 86
+R4
+r1
+!s85 0
+31
+!s108 1703971587.000000
+Z56 !s107 C:/Users/erena/Documents/Logic Design Project/TwoBitComparatorTest.v|
+Z57 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erena/Documents/Logic Design Project/TwoBitComparatorTest.v|
+!i113 1
+R5
+R6
+n@two@bit@comparator_@test
+vTwoBitComparator_Testbench
+!s110 1704021072
+!i10b 1
+!s100 Oi?`Vo[[J?6gYV_D_G=7Q3
+R0
+If2gSkd4CI[hFRJ0KFEXn>2
+R1
+R2
+w1704020392
+R54
+R55
+!i122 40
+Z58 L0 2 58
+R4
+r1
+!s85 0
+31
+!s108 1704021072.000000
+R56
+R57
+!i113 1
+R5
+R6
+n@two@bit@comparator_@testbench
+vTwoBitComparatorTest
+!s110 1704111208
+!i10b 1
+!s100 Ck:7EYg4JY26GDL@@8KU[2
+R0
+I:5kAN0jGCKFll9LIdAdAd2
+R1
+R2
+w1704021101
+R54
+R55
+!i122 94
+R58
+R4
+r1
+!s85 0
+31
+!s108 1704111208.000000
+R56
+R57
+!i113 1
+R5
+R6
+n@two@bit@comparator@test

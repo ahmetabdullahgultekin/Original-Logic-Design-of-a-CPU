@@ -1,0 +1,36 @@
+
+module OneBitRegister (
+ input in,
+ input enable,
+ input clear,
+ input CLK,
+ output reg Q
+);
+
+/*
+always @(posedge CLK or posedge clear)begin
+
+  if(clear)
+     FlipFlop (.D(1'b0), .CLK(CLK), .Q(out[1]));
+  else if(enable)
+     FlipFlop (.D(in), .CLK(CLK), .Q(out[1]));
+  else begin
+    out[0]=out[1];
+    FlipFlop (.D(out[0]), .CLK(CLK), .Q(out[1]));
+end
+Q = out[1];
+end*/
+
+
+always @(posedge CLK or posedge clear) begin
+if (clear) begin
+Q <= 1'b0;
+end
+else if (enable) begin
+Q <= in;
+end
+end
+
+endmodule
+endmodule
+

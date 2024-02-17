@@ -1,0 +1,290 @@
+{C:/Users/erena/Documents/Logic Design Project/11BitRegister.v} {1 {vlog -work work -stats=none {C:\Users\erena\Documents\Logic Design Project\11BitRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ElevenBitRegister
+
+Top level modules:
+	ElevenBitRegister
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ElevenBitAdder
+
+Top level modules:
+	ElevenBitAdder
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/D_LatchTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/D_LatchTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_Latch_tb
+
+Top level modules:
+	D_Latch_tb
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/Comparator.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/Comparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Comparator
+
+Top level modules:
+	Comparator
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/ProgramCounterTest.v} {1 {vlog -work work -stats=none {C:\Users\erena\Documents\Logic Design Project\ProgramCounterTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ProgramCounter_test
+
+Top level modules:
+	ProgramCounter_test
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/4BitRegisterTest.v} {1 {vlog -work work -stats=none {C:\Users\erena\Documents\Logic Design Project\4BitRegisterTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitRegister_Test
+
+Top level modules:
+	FourBitRegister_Test
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/SignExtender.v} {1 {vlog -work work -stats=none {C:\Users\erena\Documents\Logic Design Project\SignExtender.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module signExtender
+
+Top level modules:
+	signExtender
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/EighteenBitComparator.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/EighteenBitComparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EighteenBitComparator
+
+Top level modules:
+	EighteenBitComparator
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/EighteenBitAdderTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/EighteenBitAdderTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EighteenBitAdder_Test
+
+Top level modules:
+	EighteenBitAdder_Test
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/ControlUnit.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/ControlUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/TwoBitComparatorTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/TwoBitComparatorTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TwoBitComparatorTest
+
+Top level modules:
+	TwoBitComparatorTest
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/ALU.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/FullAdder.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/FullAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder
+
+Top level modules:
+	FullAdder
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/FourBitComparatorTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/FourBitComparatorTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitComparator_Test
+
+Top level modules:
+	FourBitComparator_Test
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/Jump.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/Jump.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Jump
+
+Top level modules:
+	Jump
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/FlipFlopTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/FlipFlopTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FlipFlop_tb
+
+Top level modules:
+	FlipFlop_tb
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/main.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/main.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module main
+-- Compiling module instruction_memory
+-- Compiling module data_memory
+
+Top level modules:
+	main
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/FiniteStateMachine.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/FiniteStateMachine.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FSM
+
+Top level modules:
+	FSM
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/RegisterFileTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/RegisterFileTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile_tb
+
+Top level modules:
+	RegisterFile_tb
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder_Test.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/ElevenBitAdder_Test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ElevenBitAdder_Test
+
+Top level modules:
+	ElevenBitAdder_Test
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/18BitRegisterTest.v} {1 {vlog -work work -stats=none {C:\Users\erena\Documents\Logic Design Project\18BitRegisterTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EighteenBitRegister_tb
+
+Top level modules:
+	EighteenBitRegister_tb
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/FSM_Test.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/FSM_Test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FSM_tb
+
+Top level modules:
+	FSM_tb
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/11BitRegisterTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/11BitRegisterTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ElevenBitRegister_TB
+
+Top level modules:
+	ElevenBitRegister_TB
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/D_Latch.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/D_Latch.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_Latch
+
+Top level modules:
+	D_Latch
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/ProgramCounter.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/ProgramCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/4BitRegister.v} {1 {vlog -work work -stats=none {C:\Users\erena\Documents\Logic Design Project\4BitRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitRegister
+
+Top level modules:
+	FourBitRegister
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/signExtenderTest.v} {1 {vlog -work work -stats=none {C:\Users\erena\Documents\Logic Design Project\signExtenderTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module signExtender_testbench
+
+Top level modules:
+	signExtender_testbench
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/EighteenBitComparatorTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/EighteenBitComparatorTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EighteenBitComparator_Test
+
+Top level modules:
+	EighteenBitComparator_Test
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/EighteenBitAdder.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/EighteenBitAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EighteenBitAdder
+
+Top level modules:
+	EighteenBitAdder
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/ComparatorTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/ComparatorTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Comparator_tb
+
+Top level modules:
+	Comparator_tb
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/ControlUnitTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/ControlUnitTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit_tb
+
+Top level modules:
+	ControlUnit_tb
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/TwoBitComparator.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/TwoBitComparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TwoBitComparator
+
+Top level modules:
+	TwoBitComparator
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/ALU_Test.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/ALU_Test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/FourBitComparator.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/FourBitComparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitComparator
+
+Top level modules:
+	FourBitComparator
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/FullAdderTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/FullAdderTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder_TB
+
+Top level modules:
+	FullAdder_TB
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/1BitRegister_Test.v} {1 {vlog -work work -stats=none {C:\Users\erena\Documents\Logic Design Project\1BitRegister_Test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OneBitRegister_Test
+
+Top level modules:
+	OneBitRegister_Test
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/FlipFlop.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/FlipFlop.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FlipFlop
+
+Top level modules:
+	FlipFlop
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/JumpTest.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/JumpTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Jump_Test
+
+Top level modules:
+	Jump_Test
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/RegisterFile.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/RegisterFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/1BitRegister.v} {1 {vlog -work work -stats=none {C:/Users/erena/Documents/Logic Design Project/1BitRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OneBitRegister
+
+Top level modules:
+	OneBitRegister
+
+} {} {}} {C:/Users/erena/Documents/Logic Design Project/18BitRegister.v} {1 {vlog -work work -stats=none {C:\Users\erena\Documents\Logic Design Project\18BitRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EighteenBitRegister
+
+Top level modules:
+	EighteenBitRegister
+
+} {} {}}

@@ -1,0 +1,40 @@
+module ALU (
+    input [17:0] SRC1,
+    input [17:0] SRC2,
+    input [5:0] IMM,
+    input [1:0] mux2_select,
+    input mux1_select,
+    output reg [17:0] Output
+);
+
+    wire [17:0] add_result;
+    wire [17:0] and_result;
+    wire [17:0] nand_result;
+    wire [17:0] nor_result;
+    wire [17:0] signEx_result;
+    reg [17:0] mux_out;
+
+    EighteenBitAdder one(.SRC1(SRC1), .SRC2(mux_out), .Output(add_result));
+    assign add_result = mux_out & SRC1;
+    assign nand_result = ~(SRC1 & SRC2);
+    assign nor_result = ~(SRC1 | SRC2);
+    signExtender two(.sixBit(IMM), .eighteenBit(signEx_result));
+
+    always @(*) begin
+      if(mux1_select)
+         mux_out = signEx_result;
+      else
+         mux_out = SRC2;
+    end
+    always @(*) begin
+        case (mux2_select)
+            2'b00: Output = add_result;
+            2'b01: Output = and_result;
+            2'b10: Output = nand_result;
+            2'b11: Output = nor_result;
+            default: Output = 18'b0;
+        endcase
+    end
+
+endmodule
+

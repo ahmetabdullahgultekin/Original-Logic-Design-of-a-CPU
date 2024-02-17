@@ -1,0 +1,86 @@
+module Jump_Test();
+  
+  // Signals
+  reg jumpSignal;
+  reg [2:0] IR;
+  reg [10:0] PC;
+  reg [10:0] Address;
+  reg ZF;
+  reg CF;
+  wire [10:0] jumpAddress;
+  
+  // Instantiate module
+  Jump jump(.jumpSignal(jumpSignal), .IR(IR), .PC(PC), .Address(Address), .ZF(ZF), .CF(CF), .jumpAddress(jumpAddress));
+  
+  // Initial values
+  initial begin
+    jumpSignal = 0;
+    IR = 3'b000;
+    PC = 11'b00000000000;
+    Address = 11'b00000000001;
+    ZF = 0;
+    CF = 0;
+    
+    // Wait for some time to observe the output
+    #10;
+    
+    // Print output
+    $display("Jump Address: %d", jumpAddress);
+    
+    // Update inputs
+    jumpSignal = 1;
+    IR = 3'b001;
+    
+    // Wait for some time to observe the output
+    #10;
+    
+    // Print output
+    $display("Jump Address: %d", jumpAddress);
+    
+    // Update inputs
+    jumpSignal = 1;
+    IR = 3'b010;
+    ZF = 1;
+    
+    // Wait for some time to observe the output
+    #10;
+    
+    // Print output
+    $display("Jump Address: %d", jumpAddress);
+  
+    // Update inputs
+    jumpSignal = 1;
+    IR = 3'b011;
+    CF = 1;
+    
+    // Wait for some time to observe the output
+    #10;
+    
+    // Print output
+    $display("Jump Address: %d", jumpAddress);
+    
+    // Update inputs
+    jumpSignal = 1;
+    IR = 3'b100;
+    ZF = 1;
+    CF = 1;
+    
+    // Wait for some time to observe the output
+    #10;
+    
+    // Print output
+    $display("Jump Address: %d", jumpAddress);
+  
+    // Update inputs
+    jumpSignal = 1;
+    IR = 3'b101;
+    ZF = 1;
+    
+    // Wait for some time to observe the output
+    #10;
+    
+    // Print output
+    $display("Jump Address: %d", jumpAddress);
+  end
+endmodule
+

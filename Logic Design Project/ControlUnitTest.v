@@ -1,0 +1,99 @@
+module ControlUnit_tb;
+
+  // Inputs
+  reg clock;
+  reg clear;
+  reg [17:0] instruction;
+  
+  // Outputs
+  wire CMP_Signal;
+  wire [10:0] ADDRESS;
+  wire [5:0] IMM;
+  wire IR;
+  wire [1:0] IR2;
+  wire Write_Enable;
+  wire Read_Enable_1;
+  wire Read_Enable_2;
+  wire MemWrite;
+  wire MemRead;
+  wire JumpSignal;
+  wire [2:0] IR3;
+  wire FetchInstruction;
+  wire PCwrite;
+  wire InstrRead;
+  wire PCread;
+  wire [3:0] WriteReg;
+  wire [3:0] ReadReg1;
+  wire [3:0] ReadReg2;
+  
+  // Instantiate the ControleUnit module
+  ControleUnit dut (
+    .clock(clock),
+    .clear(clear),
+    .instruction(instruction),
+    .CMP_Signal(CMP_Signal),
+    .ADDRESS(ADDRESS),
+    .IMM(IMM),
+    .IR(IR),
+    .IR2(IR2),
+    .Write_Enable(Write_Enable),
+    .Read_Enable_1(Read_Enable_1),
+    .Read_Enable_2(Read_Enable_2),
+    .MemWrite(MemWrite),
+    .MemRead(MemRead),
+    .JumpSignal(JumpSignal),
+    .IR3(IR3),
+    .FetchInstruction(FetchInstruction),
+    .PCwrite(PCwrite),
+    .InstrRead(InstrRead),
+    .PCread(PCread),
+    .WriteReg(WriteReg),
+    .ReadReg1(ReadReg1),
+    .ReadReg2(ReadReg2)
+  );
+
+  // Initialize inputs
+  initial begin
+    clock = 0;
+    clear = 0;
+    instruction = 18'b11000000000000011; // Write your own instruction here
+    #10;
+    clear = 1;
+    #10;
+    clear = 0;
+    #10;
+    $finish;
+  end
+
+  // Clock generator
+  always begin
+    #5;
+    clock = ~clock;
+  end
+  
+  // Display outputs
+  always @(posedge clock) begin
+    $display("CMP_Signal = %b", CMP_Signal);
+    $display("ADDRESS = %b", ADDRESS);
+    $display("IMM = %b", IMM);
+    $display("IR = %b", IR);
+    $display("IR2 = %b", IR2);
+    $display("Write_Enable = %b", Write_Enable);
+    $display("Read_Enable_1 = %b", Read_Enable_1);
+    $display("Read_Enable_2 = %b", Read_Enable_2);
+    $display("MemWrite = %b", MemWrite);
+    $display("MemRead = %b", MemRead);
+    $display("JumpSignal = %b", JumpSignal);
+    $display("IR3 = %b", IR3);
+    $display("FetchInstruction = %b", FetchInstruction);
+    $display("PCwrite = %b", PCwrite);
+    $display("InstrRead = %b", InstrRead);
+    $display("PCread = %b", PCread);
+    $display("WriteReg = %b", WriteReg);
+    $display("ReadReg1 = %b", ReadReg1);
+    $display("ReadReg2 = %b", ReadReg2);
+    $display("========================");
+  end
+
+endmodule
+

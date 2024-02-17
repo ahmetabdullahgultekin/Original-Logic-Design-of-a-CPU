@@ -1,0 +1,41 @@
+module FSM_test;
+    reg [2:0] OPCODE;
+    reg Clock;
+    reg Clear;
+    wire [3:0] Output;
+
+    FiniteStateMachine dut (
+        .OPCODE(OPCODE),
+        .Clock(Clock),
+        .Clear(Clear),
+        .Output(Output)
+    );
+
+    initial begin
+        $dumpfile("FSM_test.vcd"); // Optional: To generate a waveform file
+        $dumpvars(0, FSM_test); // Optional: To dump module variables
+
+        // Initialize inputs
+        OPCODE = 3'b000;
+        Clock = 0;
+        Clear = 0;
+
+        // Apply inputs and monitor outputs for several clock cycles
+        #10 Clear = 1;
+        #10 Clear = 0;
+        #5 OPCODE = 3'b001;
+        #5 OPCODE = 3'b010;
+        #5 OPCODE = 3'b011;
+        #5 OPCODE = 3'b100;
+        #5 OPCODE = 0;
+        #5 OPCODE = 3'b101;
+
+        // End simulation
+        $finish;
+    end
+
+    always begin
+        #5 Clock = ~Clock;
+    end
+endmodule
+

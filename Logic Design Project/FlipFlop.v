@@ -1,0 +1,16 @@
+module FlipFlop (
+ input D,
+ input CLK,
+ output reg Q
+);
+wire [1:0] out;
+
+D_Latch first(.D(D), .CLK(~CLK), .Q(out[0]));
+D_Latch second(.D(out[0]), .CLK(CLK), .Q(out[1]));
+
+always @(*)begin
+Q = out[1];
+end
+
+endmodule
+

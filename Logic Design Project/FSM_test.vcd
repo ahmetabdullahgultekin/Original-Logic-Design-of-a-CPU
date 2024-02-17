@@ -1,0 +1,98 @@
+$date
+	Fri Jan 05 00:17:23 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module FSM_test $end
+$var reg 3 ! OPCODE [2:0] $end
+$var reg 1 " Clock $end
+$var reg 1 # Clear $end
+$var wire 1 $ Output [3] $end
+$var wire 1 % Output [2] $end
+$var wire 1 & Output [1] $end
+$var wire 1 ' Output [0] $end
+
+$scope module dut $end
+$var wire 1 ( OPCODE [2] $end
+$var wire 1 ) OPCODE [1] $end
+$var wire 1 * OPCODE [0] $end
+$var wire 1 + Clock $end
+$var wire 1 , Clear $end
+$var reg 4 - Output [3:0] $end
+$var reg 4 . state [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+0#
+bx -
+bx .
+x'
+x&
+x%
+x$
+0,
+0+
+0*
+0)
+0(
+$end
+#5
+1"
+1+
+b1000 .
+#10
+1#
+0"
+1,
+0+
+#15
+1"
+1+
+b0 .
+#20
+0#
+0"
+0,
+0+
+#25
+b1 !
+1"
+1*
+1+
+b1000 .
+#30
+b10 !
+0"
+0*
+1)
+0+
+#35
+b11 !
+1"
+1*
+1+
+b11 .
+#40
+b100 !
+0"
+0*
+0)
+1(
+0+
+#45
+b0 !
+1"
+0(
+1+
+b1000 .
+#50
+b101 !

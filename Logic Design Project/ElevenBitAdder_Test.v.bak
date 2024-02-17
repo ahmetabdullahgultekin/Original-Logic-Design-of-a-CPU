@@ -1,0 +1,37 @@
+
+module ElevenBitAdder_Test;
+  
+  // Inputs
+  reg [10:0] SRC1;
+  reg [10:0] SRC2;
+  
+  // Output
+  wire [10:0] Output;
+  
+  // Instantiate the ElevenBitAdder module
+  ElevenBitAdder dut(
+    .SRC1(SRC1),
+    .SRC2(SRC2),
+    .Output(Output)
+  );
+  
+  // Test stimulus
+  initial begin
+    // Test case 1
+    SRC1 = 11'b00101010101;
+    SRC2 = 11'b01011011011;
+    #10;
+    $display("SRC1 = %b, SRC2 = %b, Output = %b", SRC1, SRC2, Output);
+    
+    // Test case 2
+    SRC1 = 11'b01100110011;
+    SRC2 = 11'b11110000111;
+    #10;
+    $display("SRC1 = %b, SRC2 = %b, Output = %b", SRC1, SRC2, Output);
+    
+    // Add more test cases as needed
+    
+    $finish;
+  end
+  
+endmodule
